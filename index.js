@@ -1,6 +1,7 @@
 import inquirer from "inquirer";
 let answers2;
 do {
+    console.clear();
     let answers = await inquirer.prompt([
         {
             message: " Enter First Number",
